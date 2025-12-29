@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce</title>
+    <script type="module" src="./app.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        product-list {
+            flex: 3;
+        }
+
+        shopping-cart {
+            flex: 1;
+            position: sticky;
+            top: 20px;
+        }
+
+        @media (max-width: 800px) {
+            body { flex-direction: column-reverse; }
+            shopping-cart { width: 100%; position: static; }
+        }
+    </style>
+</head>
+<body>
+
+    <product-list></product-list>
+
+    <shopping-cart></shopping-cart>
+
+</body>
+</html>
