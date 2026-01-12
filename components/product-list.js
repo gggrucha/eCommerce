@@ -26,6 +26,7 @@ export class ProductList extends HTMLElement {
 
     this._products.forEach(product => {
       const card = document.createElement('product-card');
+      card.setAttribute('id', product.id); //
       card.price = product.price;
 
       let promoHTML = product.promo ? `<span slot="promo">${product.promo}</span>` : '';

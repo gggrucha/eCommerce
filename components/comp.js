@@ -176,9 +176,21 @@ _emitAddToCart() {
     }));
 }
 
-connectedCallback() {
-    const btn = this.shadowRoot.querySelector('.add-btn');
-    btn.addEventListener('click', () => this._emitAddToCart());
+connectedCallback() { //przycisk do koszyka
+    const addBtn = this.shadowRoot.querySelector('.add-btn');
+    addBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // kliknięcie w przycisk nie uruchomia kliknięcia w kartę
+        this._emitAddToCart();
+    });
+
+    this.addEventListener('click', () => { //id musi być a atrybucie <product-card id="1">
+        const event = new CustomEvent('navigate-to-product', {
+            bubbles: true,
+            composed: true,
+            detail: { id: this.getAttribute('id') }
+        });
+        this.dispatchEvent(event);
+    });
 }
 }
 
