@@ -2,57 +2,1707 @@
   "products": [
     {
       "id": 1,
-      "name": "Bawełniany T-Shirt",
-      "price": 79.00,
-      "sizes": ["S", "M", "L", "XL"],
-      "colors": [],
-	  "image": "./images/tshirt.jpg",
-	  "promo": "Bestseller"
+      "name": "sweter brązowy",
+      "price": 111.93,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowy"
+      ],
+      "image": "./images/sweter/sweter brązowy.webp",
+      "promo": ""
     },
     {
       "id": 2,
-      "name": "Kurtka wiosenna",
-      "price": 249.99,
-      "sizes": [],
-      "colors": ["rgb(224, 100, 17)", "red", "green"],
-	  "image": "./images/kurtkawiosenna.avif",
-	  "promo": "Bestseller"
+      "name": "sweter czerwony",
+      "price": 202.95,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwony"
+      ],
+      "image": "./images/sweter/sweter czerwony.webp",
+      "promo": ""
     },
-	{
+    {
       "id": 3,
-      "name": "Płaszcz Wełniany",
-      "price": 499.00,
-      "sizes": ["M", "L"],
-      "colors": ["rgb(0, 0, 0)"],
-	  "image": "./images/plaszczwelniany.jpg",
-	  "promo": "-30%"
+      "name": "sweter niebieski",
+      "price": 250.92,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieski"
+      ],
+      "image": "./images/sweter/sweter niebieski.webp",
+      "promo": ""
     },
-	{
+    {
       "id": 4,
-      "name": "Sweter Zimowy",
-      "price": 159.00,
-      "sizes": ["M", "L"],
-      "colors": ["rgb(100, 0, 0)"],
-	  "image": "./images/sweter.jpg",
-	  "promo": ""
+      "name": "sweter szary",
+      "price": 126.69,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szary"
+      ],
+      "image": "./images/sweter/sweter szary.webp",
+      "promo": "Bestseller"
     },
-	{
+    {
       "id": 5,
-      "name": "Sneakersy Urban Red",
-      "price": 239.00,
-      "sizes": ["38 - 45"],
-      "colors": ["rgb(100, 0, 0)"],
-	  "image": "./images/sneakersy.avif",
-	  "promo": "Nowość"
+      "name": "sweter czarny",
+      "price": 246.0,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarny"
+      ],
+      "image": "./images/sweter/sweter czarny.webp",
+      "promo": ""
     },
-	{
+    {
       "id": 6,
-      "name": "Sukienka Świąteczna",
-      "price": 199.00,
-      "sizes": [""],
-      "colors": [],
-	  "image": "./images/sukienkaswiateczna.jpg",
-	  "promo": ""
+      "name": "sweter purpurowy",
+      "price": 99.63,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowy"
+      ],
+      "image": "./images/sweter/sweter purpurowy.webp",
+      "promo": ""
+    },
+    {
+      "id": 7,
+      "name": "sweter ze wzorem",
+      "price": 243.54,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/sweter/sweter ze wzorem.webp",
+      "promo": "Nowość"
+    },
+    {
+      "id": 8,
+      "name": "sweter zielony",
+      "price": 249.69,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielony"
+      ],
+      "image": "./images/sweter/sweter zielony.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 9,
+      "name": "sweter granatowy",
+      "price": 67.65,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowy"
+      ],
+      "image": "./images/sweter/sweter granatowy.webp",
+      "promo": ""
+    },
+    {
+      "id": 10,
+      "name": "sweter biały",
+      "price": 221.4,
+      "type": "sweter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "biały"
+      ],
+      "image": "./images/sweter/sweter biały.webp",
+      "promo": ""
+    },
+    {
+      "id": 11,
+      "name": "t-shirt brązowy",
+      "price": 151.29,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowy"
+      ],
+      "image": "./images/t-shirt/t-shirt brązowy.webp",
+      "promo": ""
+    },
+    {
+      "id": 12,
+      "name": "t-shirt czerwony",
+      "price": 66.42,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwony"
+      ],
+      "image": "./images/t-shirt/t-shirt czerwony.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 13,
+      "name": "t-shirt niebieski",
+      "price": 280.44,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieski"
+      ],
+      "image": "./images/t-shirt/t-shirt niebieski.webp",
+      "promo": ""
+    },
+    {
+      "id": 14,
+      "name": "t-shirt szary",
+      "price": 236.16,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szary"
+      ],
+      "image": "./images/t-shirt/t-shirt szary.webp",
+      "promo": "Nowość"
+    },
+    {
+      "id": 15,
+      "name": "t-shirt czarny",
+      "price": 247.23,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarny"
+      ],
+      "image": "./images/t-shirt/t-shirt czarny.webp",
+      "promo": ""
+    },
+    {
+      "id": 16,
+      "name": "t-shirt purpurowy",
+      "price": 189.42,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowy"
+      ],
+      "image": "./images/t-shirt/t-shirt purpurowy.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 17,
+      "name": "t-shirt ze wzorem",
+      "price": 104.55,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/t-shirt/t-shirt ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 18,
+      "name": "t-shirt zielony",
+      "price": 126.69,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielony"
+      ],
+      "image": "./images/t-shirt/t-shirt zielony.webp",
+      "promo": ""
+    },
+    {
+      "id": 19,
+      "name": "t-shirt granatowy",
+      "price": 250.92,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowy"
+      ],
+      "image": "./images/t-shirt/t-shirt granatowy.webp",
+      "promo": ""
+    },
+    {
+      "id": 20,
+      "name": "t-shirt biały",
+      "price": 190.65,
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "biały"
+      ],
+      "image": "./images/t-shirt/t-shirt biały.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 21,
+      "name": "płaszcz brązowy",
+      "price": 146.37,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowy"
+      ],
+      "image": "./images/płaszcz/płaszcz brązowy.webp",
+      "promo": "Nowość"
+    },
+    {
+      "id": 22,
+      "name": "płaszcz czerwony",
+      "price": 273.06,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwony"
+      ],
+      "image": "./images/płaszcz/płaszcz czerwony.webp",
+      "promo": ""
+    },
+    {
+      "id": 23,
+      "name": "płaszcz niebieski",
+      "price": 157.44,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieski"
+      ],
+      "image": "./images/płaszcz/płaszcz niebieski.webp",
+      "promo": ""
+    },
+    {
+      "id": 24,
+      "name": "płaszcz szary",
+      "price": 184.5,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szary"
+      ],
+      "image": "./images/płaszcz/płaszcz szary.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 25,
+      "name": "płaszcz czarny",
+      "price": 180.81,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarny"
+      ],
+      "image": "./images/płaszcz/płaszcz czarny.webp",
+      "promo": ""
+    },
+    {
+      "id": 26,
+      "name": "płaszcz purpurowy",
+      "price": 103.32,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowy"
+      ],
+      "image": "./images/płaszcz/płaszcz purpurowy.webp",
+      "promo": ""
+    },
+    {
+      "id": 27,
+      "name": "płaszcz ze wzorem",
+      "price": 163.59,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/płaszcz/płaszcz ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 28,
+      "name": "płaszcz zielony",
+      "price": 173.43,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielony"
+      ],
+      "image": "./images/płaszcz/płaszcz zielony.jpg",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 29,
+      "name": "płaszcz granatowy",
+      "price": 73.8,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowy"
+      ],
+      "image": "./images/płaszcz/płaszcz granatowy.jpg",
+      "promo": ""
+    },
+    {
+      "id": 30,
+      "name": "płaszcz biały",
+      "price": 226.32,
+      "type": "płaszcz",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "biały"
+      ],
+      "image": "./images/płaszcz/płaszcz biały.webp",
+      "promo": ""
+    },
+    {
+      "id": 31,
+      "name": "bluza szara",
+      "price": 162.36,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szara"
+      ],
+      "image": "./images/bluza/bluza szara.avif",
+      "promo": ""
+    },
+    {
+      "id": 32,
+      "name": "bluza czerwona",
+      "price": 81.18,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwona"
+      ],
+      "image": "./images/bluza/bluza czerwona.avif",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 33,
+      "name": "bluza niebieska",
+      "price": 130.38,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieska"
+      ],
+      "image": "./images/bluza/bluza niebieska.webp",
+      "promo": ""
+    },
+    {
+      "id": 34,
+      "name": "bluza granatowa",
+      "price": 191.88,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowa"
+      ],
+      "image": "./images/bluza/bluza granatowa.webp",
+      "promo": ""
+    },
+    {
+      "id": 35,
+      "name": "bluza czarna",
+      "price": 220.17,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarna"
+      ],
+      "image": "./images/bluza/bluza czarna.avif",
+      "promo": "Nowość"
+    },
+    {
+      "id": 36,
+      "name": "bluza purpurowa",
+      "price": 151.29,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowa"
+      ],
+      "image": "./images/bluza/bluza purpurowa.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 37,
+      "name": "bluza ze wzorem",
+      "price": 91.02,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/bluza/bluza ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 38,
+      "name": "bluza zielona",
+      "price": 247.23,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielona"
+      ],
+      "image": "./images/bluza/bluza zielona.avif",
+      "promo": ""
+    },
+    {
+      "id": 39,
+      "name": "bluza granatowa",
+      "price": 67.65,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowa"
+      ],
+      "image": "./images/bluza/bluza granatowa.webp",
+      "promo": ""
+    },
+    {
+      "id": 40,
+      "name": "bluza biała",
+      "price": 109.47,
+      "type": "bluza",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "biała"
+      ],
+      "image": "./images/bluza/bluza biała.avif",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 41,
+      "name": "kurtka szara",
+      "price": 180.81,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szara"
+      ],
+      "image": "./images/kurtka/kurtka szara.webp",
+      "promo": ""
+    },
+    {
+      "id": 42,
+      "name": "kurtka czerwona",
+      "price": 254.61,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwona"
+      ],
+      "image": "./images/kurtka/kurtka czerwona.jpg",
+      "promo": "Nowość"
+    },
+    {
+      "id": 43,
+      "name": "kurtka niebieska",
+      "price": 222.63,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieska"
+      ],
+      "image": "./images/kurtka/kurtka niebieska.avif",
+      "promo": ""
+    },
+    {
+      "id": 44,
+      "name": "kurtka granatowa",
+      "price": 70.11,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowa"
+      ],
+      "image": "./images/kurtka/kurtka granatowa.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 45,
+      "name": "kurtka czarna",
+      "price": 248.46,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarna"
+      ],
+      "image": "./images/kurtka/kurtka czarna.webp",
+      "promo": ""
+    },
+    {
+      "id": 46,
+      "name": "kurtka purpurowa",
+      "price": 99.63,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowa"
+      ],
+      "image": "./images/kurtka/kurtka purpurowa.webp",
+      "promo": ""
+    },
+    {
+      "id": 47,
+      "name": "kurtka ze wzorem",
+      "price": 220.17,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/kurtka/kurtka ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 48,
+      "name": "kurtka zielona",
+      "price": 220.17,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielona"
+      ],
+      "image": "./images/kurtka/kurtka zielona.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 49,
+      "name": "kurtka granatowa",
+      "price": 62.73,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowa"
+      ],
+      "image": "./images/kurtka/kurtka granatowa.webp",
+      "promo": "Nowość"
+    },
+    {
+      "id": 50,
+      "name": "kurtka biała",
+      "price": 252.15,
+      "type": "kurtka",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "biała"
+      ],
+      "image": "./images/kurtka/kurtka biała.avif",
+      "promo": ""
+    },
+    {
+      "id": 51,
+      "name": "koszula brązowa",
+      "price": 250.92,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowa"
+      ],
+      "image": "./images/koszula/koszula brązowa.webp",
+      "promo": ""
+    },
+    {
+      "id": 52,
+      "name": "koszula czerwona",
+      "price": 222.63,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwona"
+      ],
+      "image": "./images/koszula/koszula czerwona.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 53,
+      "name": "koszula niebieska",
+      "price": 65.19,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieska"
+      ],
+      "image": "./images/koszula/koszula niebieska.webp",
+      "promo": ""
+    },
+    {
+      "id": 54,
+      "name": "koszula szara",
+      "price": 108.24,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szara"
+      ],
+      "image": "./images/koszula/koszula szara.webp",
+      "promo": ""
+    },
+    {
+      "id": 55,
+      "name": "koszula czarna",
+      "price": 239.85,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarna"
+      ],
+      "image": "./images/koszula/koszula czarna.webp",
+      "promo": ""
+    },
+    {
+      "id": 56,
+      "name": "koszula purpurowa",
+      "price": 199.26,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowa"
+      ],
+      "image": "./images/koszula/koszula purpurowa.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 57,
+      "name": "koszula ze wzorem",
+      "price": 257.07,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/koszula/koszula ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 58,
+      "name": "koszula zielona",
+      "price": 271.83,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielona"
+      ],
+      "image": "./images/koszula/koszula zielona.webp",
+      "promo": ""
+    },
+    {
+      "id": 59,
+      "name": "koszula granatowa",
+      "price": 118.08,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowa"
+      ],
+      "image": "./images/koszula/koszula granatowa.webp",
+      "promo": ""
+    },
+    {
+      "id": 60,
+      "name": "koszula biała",
+      "price": 234.93,
+      "type": "koszula",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "biała"
+      ],
+      "image": "./images/koszula/koszula biała.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 61,
+      "name": "polo szare",
+      "price": 168.51,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szare"
+      ],
+      "image": "./images/polo/polo szare.webp",
+      "promo": ""
+    },
+    {
+      "id": 62,
+      "name": "polo czerwone",
+      "price": 105.78,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwone"
+      ],
+      "image": "./images/polo/polo czerwone.jpg",
+      "promo": ""
+    },
+    {
+      "id": 63,
+      "name": "polo niebieskie",
+      "price": 191.88,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieskie"
+      ],
+      "image": "./images/polo/polo niebieskie.webp",
+      "promo": "Nowość"
+    },
+    {
+      "id": 64,
+      "name": "polo brązowe",
+      "price": 118.08,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowe"
+      ],
+      "image": "./images/polo/polo brązowe.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 65,
+      "name": "polo czarne",
+      "price": 95.94,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarne"
+      ],
+      "image": "./images/polo/polo czarne.jpg",
+      "promo": ""
+    },
+    {
+      "id": 66,
+      "name": "polo purpurowe",
+      "price": 63.96,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowe"
+      ],
+      "image": "./images/polo/polo purpurowe.avif",
+      "promo": ""
+    },
+    {
+      "id": 67,
+      "name": "polo granatowe",
+      "price": 189.42,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowe"
+      ],
+      "image": "./images/polo/polo granatowe.webp",
+      "promo": ""
+    },
+    {
+      "id": 68,
+      "name": "polo zielone",
+      "price": 202.95,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielone"
+      ],
+      "image": "./images/polo/polo zielone.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 69,
+      "name": "polo ze wzorem",
+      "price": 146.37,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/polo/polo ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 70,
+      "name": "polo białe",
+      "price": 205.41,
+      "type": "polo",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "białe"
+      ],
+      "image": "./images/polo/polo białe.jpg",
+      "promo": "Nowość"
+    },
+    {
+      "id": 71,
+      "name": "skarpetki szare",
+      "price": 98.4,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szare"
+      ],
+      "image": "./images/skarpetki/skarpetki szare.jpg",
+      "promo": ""
+    },
+    {
+      "id": 72,
+      "name": "skarpetki czerwone",
+      "price": 277.98,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwone"
+      ],
+      "image": "./images/skarpetki/skarpetki czerwone.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 73,
+      "name": "skarpetki niebieskie",
+      "price": 13.53,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieskie"
+      ],
+      "image": "./images/skarpetki/skarpetki niebieskie.webp",
+      "promo": ""
+    },
+    {
+      "id": 74,
+      "name": "skarpetki brązowe",
+      "price": 15.94,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowe"
+      ],
+      "image": "./images/skarpetki/skarpetki brązowe.webp",
+      "promo": ""
+    },
+    {
+      "id": 75,
+      "name": "skarpetki czarne",
+      "price": 14.55,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarne"
+      ],
+      "image": "./images/skarpetki/skarpetki czarne.webp",
+      "promo": ""
+    },
+    {
+      "id": 76,
+      "name": "skarpetki purpurowe",
+      "price": 188.19,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowe"
+      ],
+      "image": "./images/skarpetki/skarpetki purpurowe.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 77,
+      "name": "skarpetki ze wzorem",
+      "price": 244.77,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/skarpetki/skarpetki ze wzorem.jpg",
+      "promo": "Nowość"
+    },
+    {
+      "id": 78,
+      "name": "skarpetki zielone",
+      "price": 249.69,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielone"
+      ],
+      "image": "./images/skarpetki/skarpetki zielone.webp",
+      "promo": ""
+    },
+    {
+      "id": 79,
+      "name": "skarpetki ze wzorem",
+      "price": 126.69,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/skarpetki/skarpetki ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 80,
+      "name": "skarpetki białe",
+      "price": 282.9,
+      "type": "skarpetki",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "białe"
+      ],
+      "image": "./images/skarpetki/skarpetki białe.jpg",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 81,
+      "name": "spodnie brązowe",
+      "price": 243.54,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowe"
+      ],
+      "image": "./images/spodnie/spodnie brązowe.webp",
+      "promo": ""
+    },
+    {
+      "id": 82,
+      "name": "spodnie czerwone",
+      "price": 218.94,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwone"
+      ],
+      "image": "./images/spodnie/spodnie czerwone.webp",
+      "promo": ""
+    },
+    {
+      "id": 83,
+      "name": "spodnie niebieskie",
+      "price": 175.89,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieskie"
+      ],
+      "image": "./images/spodnie/spodnie niebieskie.webp",
+      "promo": ""
+    },
+    {
+      "id": 84,
+      "name": "spodnie szare",
+      "price": 131.61,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szare"
+      ],
+      "image": "./images/spodnie/spodnie szare.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 85,
+      "name": "spodnie czarne",
+      "price": 177.12,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarne"
+      ],
+      "image": "./images/spodnie/spodnie czarne.webp",
+      "promo": ""
+    },
+    {
+      "id": 86,
+      "name": "spodnie purpurowe",
+      "price": 173.43,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowe"
+      ],
+      "image": "./images/spodnie/spodnie purpurowe.webp",
+      "promo": ""
+    },
+    {
+      "id": 87,
+      "name": "spodnie ze wzorem",
+      "price": 228.78,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/spodnie/spodnie ze wzorem.webp",
+      "promo": ""
+    },
+    {
+      "id": 88,
+      "name": "spodnie zielone",
+      "price": 271.83,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielone"
+      ],
+      "image": "./images/spodnie/spodnie zielone.webp",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 89,
+      "name": "spodnie granatowe",
+      "price": 66.42,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowe"
+      ],
+      "image": "./images/spodnie/spodnie granatowe.webp",
+      "promo": ""
+    },
+    {
+      "id": 90,
+      "name": "spodnie białe",
+      "price": 234.93,
+      "type": "spodnie",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "białe"
+      ],
+      "image": "./images/spodnie/spodnie białe.webp",
+      "promo": ""
+    },
+    {
+      "id": 91,
+      "name": "dresy brązowe",
+      "price": 188.19,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "brązowe"
+      ],
+      "image": "./images/dresy/dresy brązowe.avif",
+      "promo": "Nowość"
+    },
+    {
+      "id": 92,
+      "name": "dresy czerwone",
+      "price": 113.16,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czerwone"
+      ],
+      "image": "./images/dresy/dresy czerwone.avif",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 93,
+      "name": "dresy niebieskie",
+      "price": 137.76,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "niebieskie"
+      ],
+      "image": "./images/dresy/dresy niebieskie.avif",
+      "promo": ""
+    },
+    {
+      "id": 94,
+      "name": "dresy szare",
+      "price": 217.71,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "szare"
+      ],
+      "image": "./images/dresy/dresy szare.webp",
+      "promo": ""
+    },
+    {
+      "id": 95,
+      "name": "dresy czarne",
+      "price": 180.81,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "czarne"
+      ],
+      "image": "./images/dresy/dresy czarne.webp",
+      "promo": ""
+    },
+    {
+      "id": 96,
+      "name": "dresy purpurowe",
+      "price": 115.62,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "purpurowe"
+      ],
+      "image": "./images/dresy/dresy purpurowe.avif",
+      "promo": "Bestseller"
+    },
+    {
+      "id": 97,
+      "name": "dresy ze wzorem",
+      "price": 174.66,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "ze wzorem"
+      ],
+      "image": "./images/dresy/dresy ze wzorem.avif",
+      "promo": ""
+    },
+    {
+      "id": 98,
+      "name": "dresy zielone",
+      "price": 140.22,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "zielone"
+      ],
+      "image": "./images/dresy/dresy zielone.webp",
+      "promo": "Nowość"
+    },
+    {
+      "id": 99,
+      "name": "dresy granatowe",
+      "price": 190.65,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "granatowe"
+      ],
+      "image": "./images/dresy/dresy granatowe.avif",
+      "promo": ""
+    },
+    {
+      "id": 100,
+      "name": "dresy białe",
+      "price": 67.65,
+      "type": "dresy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "białe"
+      ],
+      "image": "./images/dresy/dresy białe.webp",
+      "promo": "Bestseller"
     }
+
+
+
+
   ]
 }

@@ -25,10 +25,11 @@ template.innerHTML = `
     /* --- KONTENER NA ZDJĘCIE --- */
     .image-wrapper {
       position: relative;
-      width: 100%;
-      height: 280px; /* Sztywna wysokość dla wszystkich kart */
+      width: 80%;
+      height: 320px;  /* Sztywna wysokość dla wszystkich kart */
       background-color: #f0f0f0;
       overflow: hidden;
+      margin: 0 auto;
     }
 
     /* --- MAGIA PROPORCJI ZDJĘĆ --- */
@@ -66,7 +67,7 @@ template.innerHTML = `
 
     /* --- TREŚĆ --- */
     .content {
-      padding: 20px;
+      padding: 10px 20px;
       display: flex;
       flex-direction: column;
       flex-grow: 1;
