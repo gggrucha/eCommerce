@@ -1,0 +1,14 @@
+{
+  "dane_uzytkownikow": [
+    {
+      "id":1,
+      "nazwa":"Stefan",
+      "haslo":"1234"
+    },
+    {
+      "id":2,
+      "nazwa":"admin",
+      "haslo":"123"
+    }
+  ]
+}

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eCommerce</title>
+    <link rel="stylesheet" href="/styles/user-style.css">
     <script type="module" src="./app.js"></script>
+    <script type="module" src="user-script.js"></script>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -45,5 +47,23 @@
 
     <shopping-cart></shopping-cart>
 
+    <div class="user-menu-wrapper">
+    <button id="user-button">👤 Profil</button>
+    
+    <div id="user-dropdown" class="dropdown-content"></div>
+    </div>
+
+    <div id="loginModal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="closeModal" class="close-btn">&times;</button>
+            <h2>Logowanie</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Login" required>
+                <input type="password" id="password" placeholder="Hasło" required>
+                <button type="submit" class="login-submit">Zaloguj się</button>
+            </form>
+            <p id="errorMsg"></p>
+        </div>
+    </div>
 </body>
 </html>
