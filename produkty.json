@@ -12,7 +12,7 @@
         "XL"
       ],
       "colors": [
-        "brązowy"
+        "brown"
       ],
       "image": "./images/sweter/sweter brązowy.webp",
       "promo": ""
@@ -29,7 +29,7 @@
         "XL"
       ],
       "colors": [
-        "czerwony"
+        "red", "rgb(179, 94, 89)"
       ],
       "image": "./images/sweter/sweter czerwony.webp",
       "promo": ""
@@ -46,7 +46,7 @@
         "XL"
       ],
       "colors": [
-        "niebieski"
+        "blue"
       ],
       "image": "./images/sweter/sweter niebieski.webp",
       "promo": ""
@@ -63,7 +63,7 @@
         "XL"
       ],
       "colors": [
-        "szary"
+        "grey", "rgb(198, 204, 204)"
       ],
       "image": "./images/sweter/sweter szary.webp",
       "promo": "Bestseller"
@@ -80,7 +80,7 @@
         "XL"
       ],
       "colors": [
-        "czarny"
+        "black"
       ],
       "image": "./images/sweter/sweter czarny.webp",
       "promo": ""
@@ -97,7 +97,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowy"
+        "purple", "rgb(92, 50, 69)"
       ],
       "image": "./images/sweter/sweter purpurowy.webp",
       "promo": ""
@@ -131,7 +131,7 @@
         "XL"
       ],
       "colors": [
-        "zielony"
+        "green"
       ],
       "image": "./images/sweter/sweter zielony.webp",
       "promo": "Bestseller"
@@ -148,7 +148,7 @@
         "XL"
       ],
       "colors": [
-        "granatowy"
+        "navy"
       ],
       "image": "./images/sweter/sweter granatowy.webp",
       "promo": ""
@@ -165,7 +165,7 @@
         "XL"
       ],
       "colors": [
-        "biały"
+        "white"
       ],
       "image": "./images/sweter/sweter biały.webp",
       "promo": ""
@@ -182,7 +182,7 @@
         "XL"
       ],
       "colors": [
-        "brązowy"
+        "brown"
       ],
       "image": "./images/t-shirt/t-shirt brązowy.webp",
       "promo": ""
@@ -199,7 +199,7 @@
         "XL"
       ],
       "colors": [
-        "czerwony"
+        "red", "rgb(179, 94, 89)"
       ],
       "image": "./images/t-shirt/t-shirt czerwony.webp",
       "promo": "Bestseller"
@@ -216,7 +216,7 @@
         "XL"
       ],
       "colors": [
-        "niebieski"
+        "blue"
       ],
       "image": "./images/t-shirt/t-shirt niebieski.webp",
       "promo": ""
@@ -233,7 +233,7 @@
         "XL"
       ],
       "colors": [
-        "szary"
+        "grey", "rgb(198, 204, 204)"
       ],
       "image": "./images/t-shirt/t-shirt szary.webp",
       "promo": "Nowość"
@@ -250,7 +250,7 @@
         "XL"
       ],
       "colors": [
-        "czarny"
+        "black"
       ],
       "image": "./images/t-shirt/t-shirt czarny.webp",
       "promo": ""
@@ -267,7 +267,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowy"
+        "purple", "rgb(92, 50, 69)"
       ],
       "image": "./images/t-shirt/t-shirt purpurowy.webp",
       "promo": "Bestseller"
@@ -301,7 +301,7 @@
         "XL"
       ],
       "colors": [
-        "zielony"
+        "green"
       ],
       "image": "./images/t-shirt/t-shirt zielony.webp",
       "promo": ""
@@ -318,7 +318,7 @@
         "XL"
       ],
       "colors": [
-        "granatowy"
+        "navy"
       ],
       "image": "./images/t-shirt/t-shirt granatowy.webp",
       "promo": ""
@@ -335,7 +335,7 @@
         "XL"
       ],
       "colors": [
-        "biały"
+        "white"
       ],
       "image": "./images/t-shirt/t-shirt biały.webp",
       "promo": "Bestseller"
@@ -352,7 +352,7 @@
         "XL"
       ],
       "colors": [
-        "brązowy"
+        "brown"
       ],
       "image": "./images/płaszcz/płaszcz brązowy.webp",
       "promo": "Nowość"
@@ -369,7 +369,7 @@
         "XL"
       ],
       "colors": [
-        "czerwony"
+        "red", "rgb(179, 94, 89)"
       ],
       "image": "./images/płaszcz/płaszcz czerwony.webp",
       "promo": ""
@@ -386,7 +386,7 @@
         "XL"
       ],
       "colors": [
-        "niebieski"
+        "blue"
       ],
       "image": "./images/płaszcz/płaszcz niebieski.webp",
       "promo": ""
@@ -403,7 +403,7 @@
         "XL"
       ],
       "colors": [
-        "szary"
+        "grey", "rgb(198, 204, 204)"
       ],
       "image": "./images/płaszcz/płaszcz szary.webp",
       "promo": "Bestseller"
@@ -420,7 +420,7 @@
         "XL"
       ],
       "colors": [
-        "czarny"
+        "black"
       ],
       "image": "./images/płaszcz/płaszcz czarny.webp",
       "promo": ""
@@ -437,7 +437,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowy"
+        "purple", "rgb(92, 50, 69)"
       ],
       "image": "./images/płaszcz/płaszcz purpurowy.webp",
       "promo": ""
@@ -471,7 +471,7 @@
         "XL"
       ],
       "colors": [
-        "zielony"
+        "green"
       ],
       "image": "./images/płaszcz/płaszcz zielony.jpg",
       "promo": "Bestseller"
@@ -488,7 +488,7 @@
         "XL"
       ],
       "colors": [
-        "granatowy"
+        "navy"
       ],
       "image": "./images/płaszcz/płaszcz granatowy.jpg",
       "promo": ""
@@ -505,7 +505,7 @@
         "XL"
       ],
       "colors": [
-        "biały"
+        "white"
       ],
       "image": "./images/płaszcz/płaszcz biały.webp",
       "promo": ""
@@ -522,7 +522,7 @@
         "XL"
       ],
       "colors": [
-        "szara"
+        "grey"
       ],
       "image": "./images/bluza/bluza szara.avif",
       "promo": ""
@@ -539,7 +539,7 @@
         "XL"
       ],
       "colors": [
-        "czerwona"
+        "red"
       ],
       "image": "./images/bluza/bluza czerwona.avif",
       "promo": "Bestseller"
@@ -556,7 +556,7 @@
         "XL"
       ],
       "colors": [
-        "niebieska"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/bluza/bluza niebieska.webp",
       "promo": ""
@@ -573,7 +573,7 @@
         "XL"
       ],
       "colors": [
-        "granatowa"
+        "navy", "rgb(0,0,68)"
       ],
       "image": "./images/bluza/bluza granatowa.webp",
       "promo": ""
@@ -590,7 +590,7 @@
         "XL"
       ],
       "colors": [
-        "czarna"
+        "black"
       ],
       "image": "./images/bluza/bluza czarna.avif",
       "promo": "Nowość"
@@ -607,7 +607,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowa"
+        "purple"
       ],
       "image": "./images/bluza/bluza purpurowa.webp",
       "promo": "Bestseller"
@@ -641,7 +641,7 @@
         "XL"
       ],
       "colors": [
-        "zielona"
+        "green"
       ],
       "image": "./images/bluza/bluza zielona.avif",
       "promo": ""
@@ -658,7 +658,7 @@
         "XL"
       ],
       "colors": [
-        "granatowa"
+        "navy", "rgb(0,0,68)"
       ],
       "image": "./images/bluza/bluza granatowa.webp",
       "promo": ""
@@ -675,7 +675,7 @@
         "XL"
       ],
       "colors": [
-        "biała"
+        "white"
       ],
       "image": "./images/bluza/bluza biała.avif",
       "promo": "Bestseller"
@@ -692,7 +692,7 @@
         "XL"
       ],
       "colors": [
-        "szara"
+        "grey"
       ],
       "image": "./images/kurtka/kurtka szara.webp",
       "promo": ""
@@ -709,7 +709,7 @@
         "XL"
       ],
       "colors": [
-        "czerwona"
+        "red"
       ],
       "image": "./images/kurtka/kurtka czerwona.jpg",
       "promo": "Nowość"
@@ -726,7 +726,7 @@
         "XL"
       ],
       "colors": [
-        "niebieska"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/kurtka/kurtka niebieska.avif",
       "promo": ""
@@ -743,7 +743,7 @@
         "XL"
       ],
       "colors": [
-        "granatowa"
+        "navy", "rgb(0,0,66)"
       ],
       "image": "./images/kurtka/kurtka granatowa.webp",
       "promo": "Bestseller"
@@ -760,7 +760,7 @@
         "XL"
       ],
       "colors": [
-        "czarna"
+        "black"
       ],
       "image": "./images/kurtka/kurtka czarna.webp",
       "promo": ""
@@ -777,7 +777,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowa"
+        "purple"
       ],
       "image": "./images/kurtka/kurtka purpurowa.webp",
       "promo": ""
@@ -811,7 +811,7 @@
         "XL"
       ],
       "colors": [
-        "zielona"
+        "green"
       ],
       "image": "./images/kurtka/kurtka zielona.webp",
       "promo": "Bestseller"
@@ -828,7 +828,7 @@
         "XL"
       ],
       "colors": [
-        "granatowa"
+        "navy", "rgb(0,0,66)"
       ],
       "image": "./images/kurtka/kurtka granatowa.webp",
       "promo": "Nowość"
@@ -845,7 +845,7 @@
         "XL"
       ],
       "colors": [
-        "biała"
+        "white"
       ],
       "image": "./images/kurtka/kurtka biała.avif",
       "promo": ""
@@ -862,7 +862,7 @@
         "XL"
       ],
       "colors": [
-        "brązowa"
+        "brown"
       ],
       "image": "./images/koszula/koszula brązowa.webp",
       "promo": ""
@@ -879,7 +879,7 @@
         "XL"
       ],
       "colors": [
-        "czerwona"
+        "red"
       ],
       "image": "./images/koszula/koszula czerwona.webp",
       "promo": "Bestseller"
@@ -896,7 +896,7 @@
         "XL"
       ],
       "colors": [
-        "niebieska"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/koszula/koszula niebieska.webp",
       "promo": ""
@@ -913,7 +913,7 @@
         "XL"
       ],
       "colors": [
-        "szara"
+        "grey"
       ],
       "image": "./images/koszula/koszula szara.webp",
       "promo": ""
@@ -930,7 +930,7 @@
         "XL"
       ],
       "colors": [
-        "czarna"
+        "black"
       ],
       "image": "./images/koszula/koszula czarna.webp",
       "promo": ""
@@ -947,7 +947,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowa"
+        "purple"
       ],
       "image": "./images/koszula/koszula purpurowa.webp",
       "promo": "Bestseller"
@@ -981,7 +981,7 @@
         "XL"
       ],
       "colors": [
-        "zielona"
+        "green"
       ],
       "image": "./images/koszula/koszula zielona.webp",
       "promo": ""
@@ -998,7 +998,7 @@
         "XL"
       ],
       "colors": [
-        "granatowa"
+        "navy", "rgb(0,0,66)"
       ],
       "image": "./images/koszula/koszula granatowa.webp",
       "promo": ""
@@ -1015,7 +1015,7 @@
         "XL"
       ],
       "colors": [
-        "biała"
+        "white"
       ],
       "image": "./images/koszula/koszula biała.webp",
       "promo": "Bestseller"
@@ -1032,7 +1032,7 @@
         "XL"
       ],
       "colors": [
-        "szare"
+        "grey", "rgb(131, 128, 135)"
       ],
       "image": "./images/polo/polo szare.webp",
       "promo": ""
@@ -1049,7 +1049,7 @@
         "XL"
       ],
       "colors": [
-        "czerwone"
+        "red","rgb(194, 32, 23)"
       ],
       "image": "./images/polo/polo czerwone.jpg",
       "promo": ""
@@ -1066,7 +1066,7 @@
         "XL"
       ],
       "colors": [
-        "niebieskie"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/polo/polo niebieskie.webp",
       "promo": "Nowość"
@@ -1083,7 +1083,7 @@
         "XL"
       ],
       "colors": [
-        "brązowe"
+        "brown"
       ],
       "image": "./images/polo/polo brązowe.webp",
       "promo": "Bestseller"
@@ -1100,7 +1100,7 @@
         "XL"
       ],
       "colors": [
-        "czarne"
+        "black"
       ],
       "image": "./images/polo/polo czarne.jpg",
       "promo": ""
@@ -1117,7 +1117,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowe"
+        "purple", "rgb(135, 20, 72)"
       ],
       "image": "./images/polo/polo purpurowe.avif",
       "promo": ""
@@ -1134,7 +1134,7 @@
         "XL"
       ],
       "colors": [
-        "granatowe"
+        "navy"
       ],
       "image": "./images/polo/polo granatowe.webp",
       "promo": ""
@@ -1151,7 +1151,7 @@
         "XL"
       ],
       "colors": [
-        "zielone"
+        "green"
       ],
       "image": "./images/polo/polo zielone.webp",
       "promo": "Bestseller"
@@ -1185,7 +1185,7 @@
         "XL"
       ],
       "colors": [
-        "białe"
+        "white", "rgb(245, 238, 196)"
       ],
       "image": "./images/polo/polo białe.jpg",
       "promo": "Nowość"
@@ -1202,7 +1202,7 @@
         "XL"
       ],
       "colors": [
-        "szare"
+        "grey", "rgb(131, 128, 135)"
       ],
       "image": "./images/skarpetki/skarpetki szare.jpg",
       "promo": ""
@@ -1219,7 +1219,7 @@
         "XL"
       ],
       "colors": [
-        "czerwone"
+        "red", "rgb(194, 32, 23)"
       ],
       "image": "./images/skarpetki/skarpetki czerwone.webp",
       "promo": "Bestseller"
@@ -1236,7 +1236,7 @@
         "XL"
       ],
       "colors": [
-        "niebieskie"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/skarpetki/skarpetki niebieskie.webp",
       "promo": ""
@@ -1253,7 +1253,7 @@
         "XL"
       ],
       "colors": [
-        "brązowe"
+        "brown"
       ],
       "image": "./images/skarpetki/skarpetki brązowe.webp",
       "promo": ""
@@ -1270,7 +1270,7 @@
         "XL"
       ],
       "colors": [
-        "czarne"
+        "black"
       ],
       "image": "./images/skarpetki/skarpetki czarne.webp",
       "promo": ""
@@ -1287,7 +1287,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowe"
+        "purple", "rgb(135, 20, 72)"
       ],
       "image": "./images/skarpetki/skarpetki purpurowe.webp",
       "promo": "Bestseller"
@@ -1321,7 +1321,7 @@
         "XL"
       ],
       "colors": [
-        "zielone"
+        "green"
       ],
       "image": "./images/skarpetki/skarpetki zielone.webp",
       "promo": ""
@@ -1355,7 +1355,7 @@
         "XL"
       ],
       "colors": [
-        "białe"
+        "white", "rgb(245, 238, 196)"
       ],
       "image": "./images/skarpetki/skarpetki białe.jpg",
       "promo": "Bestseller"
@@ -1372,7 +1372,7 @@
         "XL"
       ],
       "colors": [
-        "brązowe"
+        "brown"
       ],
       "image": "./images/spodnie/spodnie brązowe.webp",
       "promo": ""
@@ -1389,7 +1389,7 @@
         "XL"
       ],
       "colors": [
-        "czerwone"
+        "red", "rgb(194, 32, 23)"
       ],
       "image": "./images/spodnie/spodnie czerwone.webp",
       "promo": ""
@@ -1406,7 +1406,7 @@
         "XL"
       ],
       "colors": [
-        "niebieskie"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/spodnie/spodnie niebieskie.webp",
       "promo": ""
@@ -1423,7 +1423,7 @@
         "XL"
       ],
       "colors": [
-        "szare"
+        "grey", "rgb(131, 128, 135)"
       ],
       "image": "./images/spodnie/spodnie szare.webp",
       "promo": "Bestseller"
@@ -1440,7 +1440,7 @@
         "XL"
       ],
       "colors": [
-        "czarne"
+        "black"
       ],
       "image": "./images/spodnie/spodnie czarne.webp",
       "promo": ""
@@ -1457,7 +1457,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowe"
+        "purple", "rgb(135, 20, 72)"
       ],
       "image": "./images/spodnie/spodnie purpurowe.webp",
       "promo": ""
@@ -1491,7 +1491,7 @@
         "XL"
       ],
       "colors": [
-        "zielone"
+        "green"
       ],
       "image": "./images/spodnie/spodnie zielone.webp",
       "promo": "Bestseller"
@@ -1508,7 +1508,7 @@
         "XL"
       ],
       "colors": [
-        "granatowe"
+        "navy"
       ],
       "image": "./images/spodnie/spodnie granatowe.webp",
       "promo": ""
@@ -1525,7 +1525,7 @@
         "XL"
       ],
       "colors": [
-        "białe"
+        "white", "rgb(245, 238, 196)"
       ],
       "image": "./images/spodnie/spodnie białe.webp",
       "promo": ""
@@ -1542,7 +1542,7 @@
         "XL"
       ],
       "colors": [
-        "brązowe"
+        "brown"
       ],
       "image": "./images/dresy/dresy brązowe.avif",
       "promo": "Nowość"
@@ -1559,7 +1559,7 @@
         "XL"
       ],
       "colors": [
-        "czerwone"
+        "red", "rgb(194, 32, 23)"
       ],
       "image": "./images/dresy/dresy czerwone.avif",
       "promo": "Bestseller"
@@ -1576,7 +1576,7 @@
         "XL"
       ],
       "colors": [
-        "niebieskie"
+        "blue", "rgb(0, 229, 255)"
       ],
       "image": "./images/dresy/dresy niebieskie.avif",
       "promo": ""
@@ -1593,7 +1593,7 @@
         "XL"
       ],
       "colors": [
-        "szare"
+        "grey", "rgb(131, 128, 135)"
       ],
       "image": "./images/dresy/dresy szare.webp",
       "promo": ""
@@ -1610,7 +1610,7 @@
         "XL"
       ],
       "colors": [
-        "czarne"
+        "black"
       ],
       "image": "./images/dresy/dresy czarne.webp",
       "promo": ""
@@ -1627,7 +1627,7 @@
         "XL"
       ],
       "colors": [
-        "purpurowe"
+        "purple", "rgb(135, 20, 72)"
       ],
       "image": "./images/dresy/dresy purpurowe.avif",
       "promo": "Bestseller"
@@ -1661,7 +1661,7 @@
         "XL"
       ],
       "colors": [
-        "zielone"
+        "green"
       ],
       "image": "./images/dresy/dresy zielone.webp",
       "promo": "Nowość"
@@ -1678,7 +1678,7 @@
         "XL"
       ],
       "colors": [
-        "granatowe"
+        "navy"
       ],
       "image": "./images/dresy/dresy granatowe.avif",
       "promo": ""
@@ -1695,7 +1695,7 @@
         "XL"
       ],
       "colors": [
-        "białe"
+        "white", "rgb(245, 238, 196)"
       ],
       "image": "./images/dresy/dresy białe.webp",
       "promo": "Bestseller"

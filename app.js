@@ -4,7 +4,7 @@ import './components/shopping-cart.js';
 import './components/product-list.js'; 
 import './components/product-details.js';
 import './components/counting-box.js';
-
+//import { applyAllFilters}  from './utils/applyFilters.js';
 import { Router } from './router.js';
 import productsData from './produkty.json' with { type: 'json' };
 
@@ -65,116 +65,59 @@ document.addEventListener('added-to-cart', (e) => { // Lista -> Koszyk
     }
 });
 
-//sortowanie
-const sortSelect = document.querySelector('select#sortowanie');
-
-sortSelect.addEventListener('change', () => {
+function applyAllFilters() {
     const list = document.querySelector('product-list');
-    if (!list || !list._products) return;
-    let sorted = [...productsData.products]; // kopia tablicy
+    if (!list || !productsData || !productsData.products) return;
 
-    switch (sortSelect.value) {
+    const selectedColor = document.querySelector('#kolor-sort').value;
+    const selectedType = document.querySelector('#clothing-type').value;
+    const selectedPricePromo = document.querySelector('#price-promo').value; // np. Nowości/Bestsellery
     
-        case "Od najniższej":
-            sorted = sorted.sort((a, b) => a.price - b.price);
-            break;
 
-        case "Od najwyższej ceny":
-            sorted.sort((a, b) => b.price - a.price);
-            break;
+    // kopia zapasowa wszystkich produktów
+    let results = [...productsData.products];
 
-        case "Nowości":
-            // filtruje wyniki do promo z wartością "Nowość"
-            sorted = sorted.filter(p=>p.promo === "Nowość");
-            break;
-
-        case "Bestsellery":
-            
-            sorted = sorted.filter(p=>p.promo === "Bestseller");
-            break;
-
-        default:
-            // brak sortowania
-            sorted = [...productsData.products];
-        
+    // filtr koloru
+    if (selectedColor && selectedColor !== "Sortowanie według koloru") {
+        results = results.filter(p => p.colors && p.colors.includes(selectedColor));
     }
 
-    list.products = sorted; // ponowne renderowanie listy
-    countingBox.render(); //countingBox się aktualizuje
-});
-
-//sortowanie po kolorach
-const colorSort = document.querySelector('select#kolor-sort');
-
-colorSort.addEventListener('change', () => {
-    const list = document.querySelector('product-list');
-    if (!list || !list._products) return;
-    let sorted = [...productsData.products]; // kopia tablicy
-
-    switch (colorSort.value) {
-    
-        case "czerwony":
-            sorted = sorted.filter(p=>
-                p.colors && p.colors.some( c =>["czerwony", "czerwone","czerwona"].includes(c)));
-            break;
-
-        case "biały":
-            sorted = sorted.filter(p =>
-                p.colors && p.colors.some(c => ["biały","białe","biała"].includes(c))
-            ); //nie zadziała bez przypisywania nowej wartości do tablicy sorted
-            break;
-
-        case "szary":
-            sorted = sorted.filter(p =>
-                p.colors && p.colors.some(c => ["szary","szare","szara"].includes(c))
-            );
-            break;
-
-        case "czarny":
-            sorted = sorted.filter(p =>
-                p.colors && p.colors.some(c => ["czarny","czarne","czarna"].includes(c.toLowerCase()))
-            );
-            
-            break;
-        case "brązowy":
-            sorted = sorted.filter(p =>
-                p.colors && p.colors.some(c => ["brązowy","brązowa","brązowe"].includes(c))
-            );
-            break;
-
-        case "purpurowy":
-            sorted = sorted.filter(p=> 
-                p.colors && p.colors.some(c=> ["purpurowy","purpurowe", "purpurowa"].includes(c))
-            );
-            break;
-
-        case "niebieski":
-            sorted = sorted.filter(p=> 
-                p.colors && p.colors.some(c=> ["niebieski","niebieskie", "niebieska"].includes(c))
-            );
-            break;
-        case "zielony":
-            sorted = sorted.filter(p=> 
-                p.colors && p.colors.some(c=> ["zielony","zielone","zielona"].includes(c))
-            );
-            break;
-        case "granatowy":
-            sorted = sorted.filter(p=> 
-                p.colors && p.colors.some(c=> ["granatowy","granatowe","granatowa"].includes(c))
-            );
-            break;
-         case "ze wzorem":
-            sorted = sorted.filter(p=> 
-                p.colors && p.colors.some(c=> ["ze wzorem"].includes(c))
-            );
-            break;
-
-        default:
-            // brak sortowania
-            sorted = [...productsData.products];
-        
+    // filtr typu ubrania
+    if (selectedType && selectedType !== "Typ odzieży") {
+        results = results.filter(p => p.type === selectedType);
     }
 
-    list.products = sorted; // ponowne renderowanie listy
-    countingBox.render(); //countingBox się aktualizuje
+    // filtr typu promocje (np. Nowości / Bestsellery) i sortowanie ceny
+    if (selectedPricePromo === "Nowości") {
+        results = results.filter(p => p.promo === "Nowość");
+    } else if (selectedPricePromo === "Bestsellery") {
+        results = results.filter(p => p.promo === "Bestseller");
+    }  
+    if (selectedPricePromo === "Od najniższej") {
+        results.sort((a, b) => a.price - b.price);
+    } else if (selectedPricePromo === "Od najwyższej ceny") {
+        results.sort((a, b) => b.price - a.price);
+    }
+
+    // wyświetlenie wyników
+    list.products = results;
+    countingBox.render();
+}
+
+document.querySelector('#kolor-sort').addEventListener('change', applyAllFilters);
+document.querySelector('#clothing-type').addEventListener('change', applyAllFilters);
+document.querySelector('#price-promo').addEventListener('change', applyAllFilters);
+
+//reset-btn
+const resetBtn = document.getElementById('reset-btn');
+resetBtn.addEventListener('click', () => {
+    document.querySelector('#kolor-sort').selectedIndex = 0;
+    document.querySelector('#clothing-type').selectedIndex = 0;
+    document.querySelector('#price-promo').selectedIndex = 0;
+    countingBox.render();
+    applyAllFilters();
 });
+
+
+
+
