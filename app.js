@@ -72,10 +72,17 @@ function applyAllFilters() {
     const selectedColor = document.querySelector('#kolor-sort').value;
     const selectedType = document.querySelector('#clothing-type').value;
     const selectedPricePromo = document.querySelector('#price-promo').value; // np. Nowości/Bestsellery
-    
+    const selectedSize = document.querySelector('#size').value;
 
     // kopia zapasowa wszystkich produktów
     let results = [...productsData.products];
+
+    // filtr typu promocje (np. Nowości / Bestsellery)
+    if (selectedPricePromo === "Nowości") {
+        results = results.filter(p => p.promo === "Nowość");
+    } else if (selectedPricePromo === "Bestsellery") {
+        results = results.filter(p => p.promo === "Bestseller");
+    } 
 
     // filtr koloru
     if (selectedColor && selectedColor !== "Sortowanie według koloru") {
@@ -86,38 +93,45 @@ function applyAllFilters() {
     if (selectedType && selectedType !== "Typ odzieży") {
         results = results.filter(p => p.type === selectedType);
     }
-
-    // filtr typu promocje (np. Nowości / Bestsellery) i sortowanie ceny
-    if (selectedPricePromo === "Nowości") {
-        results = results.filter(p => p.promo === "Nowość");
-    } else if (selectedPricePromo === "Bestsellery") {
-        results = results.filter(p => p.promo === "Bestseller");
-    }  
+    //filtr rozmiar
+    if (selectedSize && selectedSize !== "Rozmiar") {
+        results = results.filter(p => p.sizes && p.sizes.includes(selectedSize));
+    }
+    
+    //sortowanie 
     if (selectedPricePromo === "Od najniższej") {
         results.sort((a, b) => a.price - b.price);
     } else if (selectedPricePromo === "Od najwyższej ceny") {
         results.sort((a, b) => b.price - a.price);
     }
 
+
     // wyświetlenie wyników
     list.products = results;
     countingBox.render();
 }
-
+//nasłuchiwanie elementu / rejestracja zdarzenia
 document.querySelector('#kolor-sort').addEventListener('change', applyAllFilters);
 document.querySelector('#clothing-type').addEventListener('change', applyAllFilters);
 document.querySelector('#price-promo').addEventListener('change', applyAllFilters);
+document.querySelector('#size').addEventListener('change', applyAllFilters);
 
 //reset-btn
 const resetBtn = document.getElementById('reset-btn');
-resetBtn.addEventListener('click', () => {
-    document.querySelector('#kolor-sort').selectedIndex = 0;
-    document.querySelector('#clothing-type').selectedIndex = 0;
-    document.querySelector('#price-promo').selectedIndex = 0;
-    countingBox.render();
-    applyAllFilters();
-});
+if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+        document.querySelector('#kolor-sort').selectedIndex = 0;
+        document.querySelector('#clothing-type').selectedIndex = 0;
+        document.querySelector('#price-promo').selectedIndex = 0;
+        document.querySelector('#size').selectedIndex = 0;
+        const list = document.querySelector('product-list');
+        if (!list || !productsData || !productsData.products) return;
+        let results = [...productsData.products]
+        list.products = results;
 
+        countingBox.render();
+    });
+}
 
 
 
