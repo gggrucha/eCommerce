@@ -1,0 +1,27 @@
+<style>
+    :host {
+        display: block;
+        margin: 5px 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        min-width: 300px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        font-family: 'Segoe UI', sans-serif;
+    }
+    p {
+        font-size: 1rem; 
+        color: gray;
+    } 
+    #totalNum {
+        font-weight: 600;
+    }
+</style>
+<p> Liczba produktów na stronie: 
+<span id ="totalNum">
+    <slot name="totalNum"></slot>
+</span>
+</p>
+       
+    
