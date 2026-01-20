@@ -14,54 +14,59 @@
     <header>
         <h1>Sklep internetowy</h1>
         <div id="top-menu">
-        <button type="button" id="reset-btn"> &#8635;</button>
-        <select name="sortowanie" id="price-promo">
-            <option> Sortowanie według</option>
-            <option  value ="Od najwyższej ceny">Cena: od najwyższej do najniższej</option>
-            <option  value ="Od najniższej">Cena: od najniższej do najwyższej</option>
-            <option  value ="Nowości">Nowości</option>
-            <option  value ="Bestsellery">Bestsellery</option>
-        </select>
-        <select name="kolor-sort" id="kolor-sort">
-            <option> Sortowanie według koloru</option>
-            <option  value ="white">biały</option>
-            <option  value ="black">czarny</option>
-            <option  value ="grey">szary</option>
-            <option  value ="brown">brązowy</option>
-            <option  value ="blue">niebieski</option>
-            <option  value ="navy">granatowy</option>
-            <option  value ="green">zielony</option>
-            <option  value ="purple">purpurowy</option>
-            <option  value ="red">czerwony</option>
-            <option  value ="ze wzorem">ze wzorem</option>
-        </select>
-        <select name="clothing-type" id="clothing-type">
-            <option> Typ odzieży</option>
-            <option  value ="sweter">sweter</option>
-            <option  value ="bluza">bluza</option>
-            <option  value ="koszula">koszula</option>
-            <option  value ="t-shirt">t-shirt</option>
-            <option  value ="polo">polo</option>
-            <option  value ="płaszcz">płaszcz</option>
-            <option  value ="kurtka">kurtka</option>
-            <option  value ="spodnie">spodnie</option>
-            <option  value ="dresy">dresy</option>
-            <option  value ="skarpetki">skarpetki</option>
-            
-        </select>
-            
-    </div>
+            <button type="button" id="reset-btn"> &#8635;</button>
+            <select name="sortowanie" id="price-promo">
+                <option> Sortowanie według</option>
+                <option  value ="Od najwyższej ceny">Cena: od najwyższej do najniższej</option>
+                <option  value ="Od najniższej">Cena: od najniższej do najwyższej</option>
+                <option  value ="Nowości">Nowości</option>
+                <option  value ="Bestsellery">Bestsellery</option>
+            </select>
+            <select name="kolor-sort" id="kolor-sort">
+                <option> Sortowanie według koloru</option>
+                <option  value ="white">biały</option>
+                <option  value ="black">czarny</option>
+                <option  value ="grey">szary</option>
+                <option  value ="brown">brązowy</option>
+                <option  value ="blue">niebieski</option>
+                <option  value ="navy">granatowy</option>
+                <option  value ="green">zielony</option>
+                <option  value ="purple">purpurowy</option>
+                <option  value ="red">czerwony</option>
+                <option  value ="ze wzorem">ze wzorem</option>
+            </select>
+            <select name="clothing-type" id="clothing-type">
+                <option> Typ odzieży</option>
+                <option  value ="sweter">sweter</option>
+                <option  value ="bluza">bluza</option>
+                <option  value ="koszula">koszula</option>
+                <option  value ="t-shirt">t-shirt</option>
+                <option  value ="polo">polo</option>
+                <option  value ="płaszcz">płaszcz</option>
+                <option  value ="kurtka">kurtka</option>
+                <option  value ="spodnie">spodnie</option>
+                <option  value ="dresy">dresy</option>
+                <option  value ="skarpetki">skarpetki</option>
+            </select>
+            <select name="size" id="size">
+                <option>Rozmiar</option>
+                <option  value ="XS">XS</option>
+                <option  value ="S">S</option>
+                <option  value ="M">M</option>
+                <option  value ="L">L</option>
+                <option  value ="XL">XL</option>
+            </select>
+            <button id="user-button">👤 Profil</button>
+        </div>
     </header>
     
     <main id="router-outlet"></main>
     <section>
     <shopping-cart></shopping-cart>
-    
-
-    <div class="user-menu-wrapper">
-    <button id="user-button">👤 Profil</button>
-    <counting-box></counting-box>
+        <div class="user-menu-wrapper">
+        <counting-box></counting-box>
     </section>
+    
     <div id="user-dropdown" class="dropdown-content"></div>
     </div>
 

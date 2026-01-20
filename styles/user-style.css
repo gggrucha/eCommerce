@@ -43,8 +43,8 @@
 .dropdown-content {
     display: none; /* Ukryte domyślnie */
     position: absolute;
-    right: 0;
-    top: 110%;
+    right: 2vw;
+    top: 5vh;
     background: white;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     padding: 15px;

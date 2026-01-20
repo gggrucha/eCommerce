@@ -6,6 +6,7 @@
       "price": 111.93,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -23,6 +24,7 @@
       "price": 202.95,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -40,6 +42,7 @@
       "price": 250.92,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -57,6 +60,7 @@
       "price": 126.69,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -74,6 +78,7 @@
       "price": 246.0,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -91,6 +96,7 @@
       "price": 99.63,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -108,6 +114,7 @@
       "price": 243.54,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -125,6 +132,7 @@
       "price": 249.69,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -142,6 +150,7 @@
       "price": 67.65,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -159,6 +168,7 @@
       "price": 221.4,
       "type": "sweter",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -176,6 +186,7 @@
       "price": 151.29,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -193,6 +204,7 @@
       "price": 66.42,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -210,6 +222,7 @@
       "price": 280.44,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -227,6 +240,7 @@
       "price": 236.16,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -244,6 +258,7 @@
       "price": 247.23,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -261,6 +276,7 @@
       "price": 189.42,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -278,6 +294,7 @@
       "price": 104.55,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -295,6 +312,7 @@
       "price": 126.69,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -312,6 +330,7 @@
       "price": 250.92,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -329,6 +348,7 @@
       "price": 190.65,
       "type": "t-shirt",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -346,6 +366,7 @@
       "price": 146.37,
       "type": "płaszcz",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -397,6 +418,7 @@
       "price": 184.5,
       "type": "płaszcz",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -431,9 +453,8 @@
       "price": 103.32,
       "type": "płaszcz",
       "sizes": [
+        "XS",
         "S",
-        "M",
-        "L",
         "XL"
       ],
       "colors": [
@@ -449,8 +470,6 @@
       "type": "płaszcz",
       "sizes": [
         "S",
-        "M",
-        "L",
         "XL"
       ],
       "colors": [
@@ -635,8 +654,7 @@
       "price": 247.23,
       "type": "bluza",
       "sizes": [
-        "S",
-        "M",
+        "XS",
         "L",
         "XL"
       ],
@@ -688,8 +706,7 @@
       "sizes": [
         "S",
         "M",
-        "L",
-        "XL"
+        "L"
       ],
       "colors": [
         "grey"
@@ -704,7 +721,6 @@
       "type": "kurtka",
       "sizes": [
         "S",
-        "M",
         "L",
         "XL"
       ],
@@ -737,7 +753,6 @@
       "price": 70.11,
       "type": "kurtka",
       "sizes": [
-        "S",
         "M",
         "L",
         "XL"
@@ -754,6 +769,7 @@
       "price": 248.46,
       "type": "kurtka",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -771,8 +787,8 @@
       "price": 99.63,
       "type": "kurtka",
       "sizes": [
+        "XS",
         "S",
-        "M",
         "L",
         "XL"
       ],
@@ -788,8 +804,8 @@
       "price": 220.17,
       "type": "kurtka",
       "sizes": [
+        "XS",
         "S",
-        "M",
         "L",
         "XL"
       ],
@@ -805,7 +821,6 @@
       "price": 220.17,
       "type": "kurtka",
       "sizes": [
-        "S",
         "M",
         "L",
         "XL"
@@ -907,10 +922,9 @@
       "price": 108.24,
       "type": "koszula",
       "sizes": [
-        "S",
+        "XS",
         "M",
-        "L",
-        "XL"
+        "L"
       ],
       "colors": [
         "grey"
@@ -1044,9 +1058,7 @@
       "type": "polo",
       "sizes": [
         "S",
-        "M",
-        "L",
-        "XL"
+        "M"
       ],
       "colors": [
         "red","rgb(194, 32, 23)"
@@ -1060,6 +1072,7 @@
       "price": 191.88,
       "type": "polo",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -1077,9 +1090,9 @@
       "price": 118.08,
       "type": "polo",
       "sizes": [
+        "XS",
         "S",
         "M",
-        "L",
         "XL"
       ],
       "colors": [
@@ -1094,6 +1107,7 @@
       "price": 95.94,
       "type": "polo",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -1112,8 +1126,6 @@
       "type": "polo",
       "sizes": [
         "S",
-        "M",
-        "L",
         "XL"
       ],
       "colors": [
@@ -1536,6 +1548,7 @@
       "price": 188.19,
       "type": "dresy",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -1553,6 +1566,7 @@
       "price": 113.16,
       "type": "dresy",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
@@ -1570,10 +1584,9 @@
       "price": 137.76,
       "type": "dresy",
       "sizes": [
+        "XS",
         "S",
-        "M",
-        "L",
-        "XL"
+        "M"
       ],
       "colors": [
         "blue", "rgb(0, 229, 255)"
@@ -1587,6 +1600,7 @@
       "price": 217.71,
       "type": "dresy",
       "sizes": [
+        "XS",
         "S",
         "M",
         "L",
