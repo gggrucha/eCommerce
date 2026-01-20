@@ -1,9 +1,118 @@
 {
   "1": [
-    { "uzytkownik": "Janusz", "tresc": "Fajna koszula" },
-    { "uzytkownik": "Andrzej", "tresc": "Dobra jakość materiałów" }
+    { "uzytkownik": "Janusz", "tresc": "Fajna koszula." },
+    { "uzytkownik": "Błażej", "tresc": "Spoko." },
+    { "uzytkownik": "Andrzej", "tresc": "Dobra jakość materiałów." }
   ],
   "2": [
+    { "uzytkownik": "Mariusz", "tresc": "Polecam." },
+    { "uzytkownik": "Marek", "tresc": "Zakładam ją do pracy na oficlajne spotkania." },
+    { "uzytkownik": "Jerzy", "tresc": "Każdy Polak powinien taki mieć w swojej szafie." }
+  ],
+  "3": [
+    { "uzytkownik": "Stefania", "tresc": "Mojemu mężowi bardzo pasuje." }
+  ],
+  "11": [
+    { "uzytkownik": "Janusz", "tresc": "Fajny T-shirt." },
+    { "uzytkownik": "Grażyna", "tresc": "Zamówiłam niebieski, a dostałam brązowy. Już nigdy tu nie wrócę!" }
+  ],
+  "12": [
     { "uzytkownik": "Stefania", "tresc": "OK, polecam!" }
+  ],
+  "13": [
+    { "uzytkownik": "Stefcia", "tresc": "Ładniutki." }
+  ],
+  "21": [
+    { "uzytkownik": "Janusz", "tresc": "Ładny płaszcz. Lubię brązowe płaszcze." },
+    { "uzytkownik": "Andrzej", "tresc": "Dobra jakość materiałów." }
+  ],
+  "22": [
+    { "uzytkownik": "Grabiarka Grabki Wielkie", "tresc": "Beznadziejny! Niszczy się po pierwszym użyciu." }
+  ],
+  "23": [
+    { "uzytkownik": "Florian", "tresc": "Kiedy będą jakieś promocje na ten model?" }
+  ],
+  "31": [
+    { "uzytkownik": "Janusz", "tresc": "Lubię szare kolory." },
+    { "uzytkownik": "Andrzej", "tresc": "Dobra jakość materiałów" }
+  ],
+  "32": [
+    { "uzytkownik": "Konrad", "tresc": "Prawdziwi Polacy noszą czerwone bluzy." }
+  ],
+  "33": [
+    { "uzytkownik": "Florian", "tresc": "Where promocja." },
+    { "uzytkownik": "Florenty", "tresc": "Szybka wysyłka i wygodna metoda płatności." }
+  ],
+  "41": [
+    { "uzytkownik": "Jarosław", "tresc": "Kiedy można spodziewać się rozmiaru XL?" },
+    { "uzytkownik": "Błażej", "tresc": "Dobra jakość materiałów." }
+  ],
+  "42": [
+    { "uzytkownik": "Józef K.", "tresc": "Jak się stąd wylogować?" }
+  ],
+  "43": [
+    { "uzytkownik": "Florian", "tresc": "Świetnie ogrzewa. Idealna na zimę." },
+    { "uzytkownik": "Florenty", "tresc": "Szybka wysyłka i wygodna metoda płatności." }
+  ],
+  "51": [
+    { "uzytkownik": "Jarosław", "tresc": "Kiedy można spodziewać się rozmiaru XXL?" },
+    { "uzytkownik": "Błażej", "tresc": "Za PRL były tylko szare." }
+  ],
+  "53": [
+    { "uzytkownik": "Paweł", "tresc": "Idealna na szybki wypad na plażę." },
+    { "uzytkownik": "Rombert", "tresc": "Nie polecam." }
+  ],
+  "55": [
+    { "uzytkownik": "Józef K.", "tresc": "Zadowolony z zakupu." }
+  ],
+  "61": [
+    { "uzytkownik": "Jarosław", "tresc": "Kiedy można spodziewać się rozmiaru L i S?" },
+    { "uzytkownik": "Błażej", "tresc": "Lubię ten kolor." }
+  ],
+  "62": [
+    { "uzytkownik": "Lesław L.", "tresc": "Mojej żonie bardzo się podoba." }
+  ],
+  "63": [
+    { "uzytkownik": "Lesław L.", "tresc": "Dobra jakość materiałów." },
+    { "uzytkownik": "Roch", "tresc": "Nie." }
+  ],
+  "71": [
+    { "uzytkownik": "Jarosław", "tresc": "Kiedy można spodziewać się rozmiaru L i S?" },
+    { "uzytkownik": "Błażej", "tresc": "Lubię ten kolor." }
+  ],
+  "72": [
+    { "uzytkownik": "Lesław L.", "tresc": "Mojej żonie bardzo się podoba." }
+  ],
+  "73": [
+    { "uzytkownik": "Lech", "tresc": "Zawsze zamawiam je hurtowo. Pozdrawiam." }
+  ],
+  "81": [
+    { "uzytkownik": "Jolanta", "tresc": "Czy są dostępne inne odcienie brązu?" },
+    { "uzytkownik": "Pracownik Sklepu Internetowego", "tresc": "Nie." }
+  ],
+  "82": [
+    { "uzytkownik": "Lesław L.", "tresc": "Czuję się w nich 30 lat młodszy." }
+  ],
+  "83": [
+    { "uzytkownik": "Robert", "tresc": "Czuję się w nich 30 lat młodszy." }
+  ],
+  "91": [
+    { "uzytkownik": "Roch", "tresc": "Czy są dostępne inne odcienie?" },
+    { "uzytkownik": "Jakub", "tresc": "Niestety przyszedł mi rozmiar za mały." }
+  ],
+  "92": [
+    { "uzytkownik": "Rajmund", "tresc": "Przyjemne w dotyku." },
+    { "uzytkownik": "Roger", "tresc": "Ładnie pachną." }
+  ],
+  "93": [
+    { "uzytkownik": "Robert", "tresc": "Kiedy będą jakieś promocje?" }
+  ],
+  "95": [
+    { "uzytkownik": "Robert", "tresc": "Mój ulubiony model." },
+    { "uzytkownik": "Michał", "tresc": "Polecam." },
+    { "uzytkownik": "Marian", "tresc": "Pozdrawiam z Mazowsza z rodziną." },
+    { "uzytkownik": "Paweł", "tresc": "Okropny materiał. Strzępi się po drugim użyciu." }
   ]
+
+
 }
