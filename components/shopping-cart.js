@@ -63,6 +63,7 @@ export class ShoppingCart extends HTMLElement {
 
   removeItem(index) {
     this.items.splice(index, 1);
+    localStorage.setItem('cartItems', JSON.stringify(this.items));
     this.render();
   }
 
