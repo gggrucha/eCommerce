@@ -4,6 +4,8 @@ import './components/shopping-cart.js';
 import './components/product-list.js'; 
 import './components/product-details.js';
 import './components/counting-box.js';
+import './components/order-summary.js';
+import './components/order-history.js';
 import { Router } from './router.js';
 import productsData from './produkty.json' with { type: 'json' };
 
@@ -41,8 +43,9 @@ if (outlet) {
 //Konfiguracja tras
 const routes = {
     '/': 'product-list',
-    // '/index.html': 'product-list', //
-    '/product': 'product-details'
+    '/product': 'product-details',
+    '/summary': 'order-summary',
+    '/orders': 'order-history'
 };
 
 //Start routera
@@ -138,5 +141,41 @@ if (resetBtn) {
     });
 }
 
+// Obsługa przejścia do podsumowania
+document.addEventListener('go-to-summary', () => {
+    router.navigate('/summary');
+});
 
+// Obsługa finalizacji zamówienia
+document.addEventListener('finalize-order', (e) => {
+    const isLoggedIn = sessionStorage.getItem('isLoggedIn') === 'true';
+    const userName = sessionStorage.getItem('userName');
 
+    if (!isLoggedIn || !userName) {
+        alert("Musisz się zalogować, aby sfinalizować zamówienie!");
+        return;
+    }
+
+    const orderData = e.detail;
+    const storageKey = `orderHistory_${userName}`;
+    const history = JSON.parse(localStorage.getItem(storageKey)) || [];
+
+    history.push(orderData);
+    localStorage.setItem(storageKey, JSON.stringify(history));
+    
+    localStorage.removeItem('cartItems');
+    if (cartComponent) {
+        cartComponent.items = []; 
+        cartComponent.render();
+    }
+    
+    alert(`Dziękujemy ${userName}, zamówienie zostało złożone!`);
+    router.navigate('/');
+});
+document.addEventListener('click', (e) => {
+    if (e.target && e.target.id === 'go-to-orders') { // czy kliknięto przycisk "Moje zamówienia"
+        console.log("Nawigacja do historii zamówień...");
+        const dropdown = document.getElementById('user-dropdown');
+        if (dropdown) dropdown.classList.remove('show');
+        router.navigate('/orders'); // nawigacja do /orders
+   } });

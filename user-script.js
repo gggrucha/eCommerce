@@ -16,7 +16,7 @@ function refreshUserMenu() {
             <p style="color: green; font-size: 14px;">● Witaj, ${userName}</p>
             <hr>
             <button class="menu-item">Mój profil</button>
-            <button class="menu-item">Moje zamówienia</button>
+            <button id="go-to-orders" class="menu-item">Moje zamówienia</button>
             <button id="logoutBtn" style="color: red; margin-top: 10px; cursor: pointer;">Wyloguj się</button>
         `;
         document.getElementById('logoutBtn').onclick = () => {

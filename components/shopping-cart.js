@@ -39,6 +39,19 @@ template.innerHTML = `
       color: #2c3e50;
     }
     .empty-msg { color: #888; font-style: italic; text-align: center; margin-top: 20px;}
+    .order-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+    .order-btn:hover { background-color: #0056b3; }
   </style>
 
   <h2>Twój Koszyk</h2>
@@ -102,6 +115,16 @@ export class ShoppingCart extends HTMLElement {
 
     container.appendChild(list);
     totalEl.textContent = `Suma: ${this.getTotal()} PLN`;
+
+    const orderBtn = document.createElement('button');
+    orderBtn.className = 'order-btn';
+    orderBtn.textContent = 'Zamów';
+    orderBtn.onclick = () => {
+      this.dispatchEvent(new CustomEvent('go-to-summary', { //wysyłanie do app.js
+        bubbles: true, composed: true
+        }));
+    };
+    container.appendChild(orderBtn);
   }
 }
 
