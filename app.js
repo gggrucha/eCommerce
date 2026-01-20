@@ -1,23 +1,25 @@
-// app.js, aby zarządzać listą produktów, zarządza router.js 
+// app.js, jest kontrolerem zdarzeń, zarządza router.js 
 
 import './components/shopping-cart.js';
 import './components/product-list.js'; 
 import './components/product-details.js';
 import './components/counting-box.js';
-//import { applyAllFilters}  from './utils/applyFilters.js';
 import { Router } from './router.js';
 import productsData from './produkty.json' with { type: 'json' };
 
 const outlet = document.querySelector('#router-outlet');
 const cartComponent = document.querySelector('shopping-cart');
 const countingBox = document.querySelector('counting-box');
-
 const listComponent = document.querySelector('product-list');
-// const cartComponent = document.querySelector('shopping-cart');
+const savedCartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
 
 if (!outlet) {
     console.error("BŁĄD KRYTYCZNY: Nie znaleziono <main id='router-outlet'> w index.html");
 } //działa więc się nic nie printuje
+
+if (cartComponent && savedCartItems.length > 0) {
+    savedCartItems.forEach(item => cartComponent.addItem(item));
+}
 
 // Używamy MutationObserver, żeby wykryć, kiedy <product-list> pojawi się w DOM
 const observer = new MutationObserver((mutations) => {
@@ -32,7 +34,7 @@ const observer = new MutationObserver((mutations) => {
 });
 
 if (outlet) {
-    console.log("siema")
+    // console.log("siema")
     observer.observe(outlet, { childList: true, subtree: true });
 }
 
@@ -57,11 +59,14 @@ if (listComponent) {
     listComponent.products = productsData.products;
 }
 
-document.addEventListener('added-to-cart', (e) => { // Lista -> Koszyk
+document.addEventListener('added-to-cart', (e) => { 
     const productToAdd = e.detail;
     
     if (cartComponent) {
         cartComponent.addItem(productToAdd);
+        const currentItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        currentItems.push(productToAdd);
+        localStorage.setItem('cartItems', JSON.stringify(currentItems));
     }
 });
 
