@@ -1,6 +1,7 @@
 //po atrybucie szuka produktu w pliku produkty.json i bez przeładowania strony podmienia kompontent do pliku index.html
 import './comp.js'; 
 import productsData from '../produkty.json' with { type: 'json' };
+import commentsData from '../komentarze.json' with { type: 'json' };
 
 export class ProductDetails extends HTMLElement {
     static get observedAttributes() {
@@ -21,6 +22,9 @@ export class ProductDetails extends HTMLElement {
             this.innerHTML = "<h2>Produkt nie istnieje</h2>";
             return;
         }
+
+        // Jeśli dla danego ID nie ma komentarzy, przypisujemy pustą tablicę [].
+        const productComments = commentsData[id] || [];
 
         this.innerHTML = `
             <style>
@@ -57,6 +61,17 @@ export class ProductDetails extends HTMLElement {
                 <h3>Cena: ${product.price} PLN</h3>
                 
                 <button id="add-btn" class="add-btn">Dodaj do koszyka</button>
+
+                <div class="comments-section" style="margin-top: 30px;">
+                    <h3>Komentarze:</h3>
+                    ${productComments.length > 0 
+                        ? productComments.map(c => `
+                            <div class="comment-item">
+                                <strong>${c.uzytkownik}:</strong> ${c.tresc}
+                            </div>
+                        `).join('') 
+                        : "<p>Brak komentarzy dla tego produktu.</p>"}
+                </div>
             </div>
         `;
 

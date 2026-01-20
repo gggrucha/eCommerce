@@ -1,0 +1,9 @@
+{
+  "1": [
+    { "uzytkownik": "Janusz", "tresc": "Fajna koszula" },
+    { "uzytkownik": "Andrzej", "tresc": "Dobra jakość materiałów" }
+  ],
+  "2": [
+    { "uzytkownik": "Stefania", "tresc": "OK, polecam!" }
+  ]
+}
