@@ -52,7 +52,7 @@ template.innerHTML = `
       position: absolute;
       top: 15px;
       right: 15px;
-      z-index: 2;
+      /*z-index: 2;*/
     }
     ::slotted(span[slot="promo"]) {
       background-color: #e63946;
@@ -164,7 +164,7 @@ class ProductCard extends HTMLElement {
 _emitAddToCart() {
     const nameNode = this.shadowRoot.querySelector('slot[name="name"]');
     const nameText = nameNode && nameNode.assignedNodes().length > 0 
-        ? nameNode.assignedNodes()[0].textContent 
+        ? nameNode.assignedNodes()[0].textContent
         : 'Produkt';
 
     this.dispatchEvent(new CustomEvent('added-to-cart', {
