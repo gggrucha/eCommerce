@@ -80,10 +80,9 @@ body {
         }
 
         shopping-cart {
-            max-width: 350px;
+            /*max-width: 350px;*/
             /* flex: 1; */
-            position: sticky;
-            top: 20px;
+            position: relative;
         }
 
         section {
@@ -110,6 +109,13 @@ body {
 }*/
 
 @media (max-width: 890px) {
+body {
+    display:column;
+    justify-content: center;
+    overflow-x:hidden;
+    /*to zagranie sprawia że zaczyna się przesuwać w prawo*/
+    /*min-width: 658px;*/
+}
 header {
     height: 23vh;
     background-image: url('../images/mozaika2.jpg');
@@ -120,6 +126,26 @@ header {
     /*background-color: rgb(255, 254, 254);*/
 }
 
+section {
+    order: 1;
+    width: 100%;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+shopping-cart {
+    display:block;
+    width: 93%;
+    margin: 0 auto;
+    z-index: 2;
+}
+counting-box {
+    display: none; 
+}
+
+#router-outlet {
+    order: 2;
+}
 select {
     margin-top: 5px;
 }
@@ -131,4 +157,5 @@ button {
 button#user-button {
     width: 94%;
 }
+
 }
